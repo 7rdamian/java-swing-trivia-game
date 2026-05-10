@@ -2,7 +2,7 @@
 
 A graphical desktop trivia application built with Java Swing. It connects to a live REST API to generate dynamic quizzes, featuring multiple game modes, category selection, and a persistent local leaderboard.
 
-> **Note:** This is the graphical desktop version of this project, built to demonstrate Event-Driven Programming and the MVC pattern. For the lightweight Command-Line Interface (CLI) version, [click here](https://github.com/7rdamian/general-knowledge-quiz).
+> **Note:** This is the graphical desktop version of this project. For the lightweight Command-Line Interface (CLI) version, [click here](https://github.com/7rdamian/general-knowledge-quiz).
 
 ## Key Features
 
