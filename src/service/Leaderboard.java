@@ -16,6 +16,7 @@ public class Leaderboard {
     private String path = "data/leaderboard.txt";
     private File file;
     private List<Player> players;
+    public int numberOfPlayers;
 
     // Constructor; loads leaderboard into memory on initiation
     public Leaderboard() {
@@ -23,6 +24,7 @@ public class Leaderboard {
         this.file = new File(path);
         loadPlayers();
         sortPlayers();
+        numberOfPlayers = players.size();
     }
 
     // Reads player names and scores from the leaderboard file
@@ -72,6 +74,10 @@ public class Leaderboard {
         }
         players.add(player);
         sortPlayers();
+    }
+
+    public List<Player> getPlayers() {
+        return players;
     }
 
     // Prints leaderboard and aligns it properly

@@ -10,3 +10,10 @@ r 0/5
 stef 2/4
 dami 4/5
 alex 1/5
+marius 0/10
+mircea 9/10
+d 0/10
+tata 9/10
+dami 7/10
+stefan 7/10
+bogdan 0/10

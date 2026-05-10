@@ -54,7 +54,7 @@ public class QuestionLoaderApi {
                 String correctAnswer = "";
                 String[] letters = {"A", "B", "C", "D"};
                 for (int j = 0; j < options.length; j++) {
-                    if (options[j] == decodeHTML(resultsJson.getString("correct_answer"))) {
+                    if (options[j].equals(decodeHTML(resultsJson.getString("correct_answer")))) {
                         correctAnswer = letters[j];
                     }
                     options[j] = letters[j] + ") " + options[j];
@@ -87,6 +87,4 @@ public class QuestionLoaderApi {
                 .replace("&lsquo;", "'")
                 .replace("&hellip;", "…");
     }
-
-
 }
